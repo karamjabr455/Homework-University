@@ -1,0 +1,266 @@
+
+
+p{
+    color: #333;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 ,h2 ,h3 ,h4 ,h5 ,h6{
+    color: #f0d397
+    ;
+ 
+  
+  
+   
+}
+body{
+    background-image:url(./img/black\ and\ yellow\ futuristic\ gaming\ desktop\ backgrounds.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0d397;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 75px;
+    height: 75px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+
+
+
+table{
+    margin: auto;
+   margin-top: 50px;
+   text-transform: uppercase;
+   text-align: center;
+}
+table thead{
+    background-color:#06306e;
+    color: #6196ffc2;
+}
+
+table tbody{
+    background-color: #f0d397;
+}
+
+table tbody td{
+    padding: 10px
+}
+
+.body{
+    margin-right:500px;
+   
+    width: 525px;
+   
+}
+.body h2{
+    text-align: center;
+}
+.body h3{
+    text-align: center;
+}
+/* about-us */
+
+.about-us {
+    padding: 50px 0;
+    
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .about-us-content {
+    padding: 20px;
+    background-color: #ffffff3a;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+  }
+  
+  .about-us-content h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-content p {
+    line-height: 1.5;
+    color:#f0d397;
+
+  }
+  
+  .contact-info {
+    margin-top: 50px;
+    color:#f0d397;
+  }
+  
+  .contact-info h3 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .contact-info li {
+    margin-bottom: 10px;
+  }
+  
+
+
+
+  /* properties */
+  .properties {
+    padding: 50px 0;
+    background-color: #f8f8f849;
+    border-radius: 30px;
+  }
+  .properties h2{
+    margin-right: 700px;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+        
+  }
+  
+  .properties-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    
+ 
+  }
+  
+  .properties-table th,
+  .properties-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .properties-table th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+  
+  .show-details-checkbox {
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+
+  .details{
+  display: none;
+  margin: auto;
+
+  
+
+    
+  }
+  .details td{
+  margin-left: 300px;
+  
+
+  }
+
+  .details img{
+    width:150px;
+  }
+
+
+  button {
+    background: #f0d397;
+    color:#333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  
+}
+
+
+#formContainer {
+  background: #f9f9f965; /* Lighter background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05); /* Softer shadow */
+  display: none;
+  margin-top: 20px;
+}
+
+form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  align-items: center;
+}
+
+label {
+  grid-column: span 2;
+  font-size: 16px; 
+  color: #333; 
+}
+
+input[type="text"], input[type="email"], input[type="submit"] {
+  width: 100%;
+  padding: 12px; 
+  margin: 5px 0;
+  box-sizing: border-box;
+  border: 1px solid #ddd; 
+  border-radius: 6px; 
+ 
+}
+
+input[type="text"]:focus, input[type="email"]:focus {
+  border-color: #0056b3; 
+  box-shadow: 0 0 8px rgba(0,86,179,0.2); 
+}
+
+input[type="submit"] {
+  background-color: #f0d397; 
+  color: white;
+  cursor: pointer;
+  font-weight: bold; 
+}
